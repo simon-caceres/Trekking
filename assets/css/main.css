@@ -1,76 +1,109 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
 .Seccion-Precios {
-    height: 1000px;
-    background-image: url('../images/bg-price.svg');
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-top: 100px;
+  height: 1000px;
+  background-image: url("../images/bg-price.svg");
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
 }
 
 .Inicio {
-    height: 100%;
-    background-image: url('../images/bg-hero.svg');
-    top: 100%;
-    left: 0;
+  height: 100%;
+  background-image: url("../images/bg-hero.svg");
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: "Raleway", bold;
+  font-size: 45px;
+}
+
+card-text {
+  font-family: "Raleway", regular;
+  font-size: 16px;
+}
+
+.pie {
+  font-family: "Raleway", regular;
+  font-size: 14px;
+}
+
+.caract, .precios {
+  font-family: "Raleway", bold;
+  font-size: 50px;
+}
+
+.registro-boton {
+  background-color: #2AB7CA;
+  color: #FFF;
+}
+
+.obten {
+  background-color: #2AB7CA;
+  align-content: center;
+  justify-content: center;
+}
+
+.sesion-init {
+  color: #C7C8CC;
+}
+
+.cuadrosvg {
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+}
+.containerInicio > .card-body {
+  width: 100px;
 }
 
-.containerInicio
-{
-    margin-top: 30px;  
+.precios {
+  color: #FFF;
 }
 
-.containerInicio>.card-body
-{
-    width: 200px;
-}
-.precios
-{
-    color: rgb(236, 231, 221);
+.containerInicio {
+  margin-top: 30px;
 }
 
-.pie
-{
-    background-color: rgb(42, 40, 40);
+.pie {
+  padding: 20px;
+  background-color: #221D23;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  color: #8F9199;
 }
 
-
-
-.caract
-{
-    margin-top: 100px;
-    margin-bottom: 40px;
+.item4 {
+  grid-column-start: 8;
+  grid-column-end: 9;
 }
 
-.cuadrosvg
-{
-    animation-duration: 4s;
-    animation-name: slidein;
-    animation-iteration-count: 4;
-    animation-direction: alternate;
+.caract {
+  margin-top: 200px;
+  margin-bottom: 40px;
 }
 
-@keyframes slidein
-{
-    from
-    {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to
-    {
-        margin-left:0%;
-        width:100%;
-    }
-}
+/*# sourceMappingURL=main.css.map */
