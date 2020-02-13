@@ -65,12 +65,12 @@ card-text {
 
 .cuadrosvg {
   animation-duration: 4s;
-  animation-name: slidein;
+  animation-name: bounce;
   animation-iteration-count: 4;
   animation-direction: alternate;
 }
 
-@keyframes slidein {
+@keyframes bounce {
   from {
     margin-left: 100%;
     width: 300%;
@@ -80,6 +80,31 @@ card-text {
     width: 100%;
   }
 }
+.cardOferta .card-body {
+  -webkit-transition: all 0.9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all 0.9s ease;
+  /* Firefox */
+  -o-transition: all 0.9s ease;
+  /* IE 9 */
+  -ms-transition: all 0.9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+.cardOferta:hover .card-body {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.cardOferta {
+  /*Ancho y altura son modificables al requerimiento de cada uno*/
+  overflow: hidden;
+}
+
 .containerInicio > .card-body {
   width: 100px;
 }
@@ -154,6 +179,25 @@ card-text {
   .item1 {
     grid-column-start: 2;
     grid-column-end: 3;
+  }
+}
+@media (min-width: 768px) {
+  .inicio {
+    background-image: url("../images/bg-hero800px.svg");
+    height: 1000px;
+  }
+
+  .caract {
+    margin-top: 20px;
+  }
+
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .container1 .col-4 {
+    max-width: 100%;
   }
 }
 

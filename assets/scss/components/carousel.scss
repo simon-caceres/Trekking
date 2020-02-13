@@ -2,12 +2,12 @@
 
 .cuadrosvg {
     animation-duration: 4s;
-    animation-name: slidein;
+    animation-name: bounce;
     animation-iteration-count: 4;
     animation-direction: alternate;
 }
 
-@keyframes slidein {
+@keyframes bounce {
     from {
         margin-left: 100%;
         width: 300%;
@@ -17,4 +17,26 @@
         margin-left: 0%;
         width: 100%;
     }
+}
+
+
+.cardOferta .card-body {
+    -webkit-transition: all .9s ease; /* Safari y Chrome */
+    -moz-transition: all .9s ease; /* Firefox */
+    -o-transition: all .9s ease; /* IE 9 */
+    -ms-transition: all .9s ease; /* Opera */
+    width: 100%;
+}
+
+.cardOferta:hover .card-body {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+.cardOferta { /*Ancho y altura son modificables al requerimiento de cada uno*/
+   
+    overflow: hidden;
 }

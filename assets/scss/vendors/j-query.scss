@@ -54,3 +54,39 @@
 
    
 }
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .inicio {
+        background-image: url('../images/bg-hero800px.svg');
+        height: 1000px;
+    }
+
+    .caract {
+        margin-top: 20px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+
+        .col-4 {
+            
+            max-width: 100%;
+        }
+    }
+
+   
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}
