@@ -72,11 +72,11 @@ card-text {
 
 @keyframes bounce {
   from {
-    margin-left: 100%;
+    left: 0%;
     width: 300%;
   }
   to {
-    margin-left: 0%;
+    margin-left: 100%;
     width: 100%;
   }
 }
@@ -101,7 +101,6 @@ card-text {
 }
 
 .cardOferta {
-  /*Ancho y altura son modificables al requerimiento de cada uno*/
   overflow: hidden;
 }
 
@@ -128,6 +127,11 @@ card-text {
 .item4 {
   grid-column-start: 8;
   grid-column-end: 9;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 .caract {
@@ -178,7 +182,7 @@ card-text {
 
   .item1 {
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 6;
   }
 }
 @media (min-width: 768px) {

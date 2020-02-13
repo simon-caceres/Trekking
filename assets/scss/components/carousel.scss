@@ -9,12 +9,12 @@
 
 @keyframes bounce {
     from {
-        margin-left: 100%;
+        left: 0%;
         width: 300%;
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 100%;
         width: 100%;
     }
 }
@@ -36,7 +36,7 @@
     transform: scale(1.25);
 }
 
-.cardOferta { /*Ancho y altura son modificables al requerimiento de cada uno*/
+.cardOferta { 
    
     overflow: hidden;
 }
