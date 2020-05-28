@@ -4,7 +4,8 @@
 
 ## Preview: 
 
-![Trekking](https://user-images.githubusercontent.com/60223915/83199785-e4987700-a10f-11ea-8aea-5d68eb560d35.jpg)
+![Fondo](https://user-images.githubusercontent.com/60223915/83200740-009d1800-a112-11ea-8bc7-1d32366c304a.png)
+
 
 
 
